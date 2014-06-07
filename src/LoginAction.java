@@ -1,3 +1,4 @@
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
 /**
@@ -18,6 +19,12 @@ public class LoginAction extends ActionSupport {
 	public String execute() throws Exception{
 		LoginBean bean=new LoginBean();
 		if (bean.isLogin(userName, password)) {
+			//获取ActionContext
+			ActionContext a=ActionContext.getContext();
+			//把输入的用户名保存到session中
+			a.getSession().put("userName", userName);
+			
+			
 			return SUCCESS;
 		}else {
 			return LOGIN;

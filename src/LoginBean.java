@@ -14,14 +14,16 @@ public class LoginBean {
 	 */
 	public boolean isLogin(String userName,String password){
 		
-		org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter a=new org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter();
+		//org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter a=new org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter();
 		
 		
-		if ("hello".equals(userName)&&"123".equals(password)) {
-			return true;
-		}else {
-			return false;
-		}
+//		if ("hello".equals(userName)&&"123".equals(password)) {
+//			return true;
+//		}else {
+//			return false;
+//		}
+		
+		return true;
 		
 	}
 	public String getUserName() {

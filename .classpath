@@ -13,20 +13,5 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/commons-io-2.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/freemarker-2.3.19.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/javassist-3.11.0.GA.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/ognl-3.0.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/xwork-core-2.3.16.3.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/commons-fileupload-1.3.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcatlib/jsp-api.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcatlib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/asm-3.3.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/asm-commons-3.3.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/asm-tree-3.3.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/commons-lang3-3.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/commons-logging-1.1.3.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts2lib/struts2-core-2.3.16.3.jar" sourcepath="E:/workspace/struts-2.3.16.3-all/struts-2.3.16.3/src"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
